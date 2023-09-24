@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTGraphy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="./master.js"></script>
+<body>
+    <header>
+        <div class="MTGraphy">
+            MTGRAPHY PHOTOS
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href='Home.html'>HOME</a></li>
+                <li><a href='Gallery.html'>GALLERY</a></li>
+                <li><a href='AboutUS.html'>ABOUT US</a></li>
+                <li><a href='ContactUs.html'>CONTACT US</a></li>
+                <li><a class="active" href='#'>SUBSCRIBE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="SUBSCRIPTION">
+        SUBSCRIPTION
+    </div>
+    <div class="box">
+        <form action="/" onsubmit="formSubmitted(event)">
+            <input type="name" name="" id="fullnameTxt" placeholder="full name" required autocomplete="none">
+            <input type="email" name="" id="emailTxt" placeholder="email" required>
+            <input type="phoneNum" name="" id="phonenumTxt" placeholder="phone number" required>
+            <input type="country" name="" id="countryTxt" placeholder="country" required>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="checkbox" required>
+                <label for="checkBox">I Agree with the terms and conditions</label>
+            </div>
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
